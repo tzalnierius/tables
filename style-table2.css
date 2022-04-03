@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+table {
+  color: white;
+  border: none;
+  background: white;
+  font-family: Arimo, sans-serif;
+  margin: 30px auto;
+  text-align: left;
+  max-width: 800px;
+}
+
+th {
+  background: #860070;
+  font-family: Source Code Pro, sans-serif;
+  font-weight: 500;
+  padding: 15px;
+  width: 350px;
+  height: 25px;
+  font-size: 1.5em;
+}
+td {
+  border: none;
+  padding: 15px;
+  width: 350px;
+  height: 15px;
+  font-size: 1.2em;
+}
+tr:nth-of-type(even) {
+  background: #f47ccc;
+}
+tr:nth-of-type(odd) {
+  background: #af5593;
+}
